@@ -1,0 +1,215 @@
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav {
+    height: 50px;
+    background-color: #4E4E4E;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-logo {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-links a:last-child {
+    cursor: not-allowed;
+}
+
+.landing-page {
+    height: calc(100vh - 50px);
+    background-image: url(https://picsum.photos/1920/1080);
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-page-shadow {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+}
+
+.landing-page h1, .landing-page h2 {
+    color: #FFFFFF;
+}
+
+.landing-page a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 164px;
+    height: 41px;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+}
+
+.landing-page-shadow .container {
+    height: 60%;
+    display: flex;
+}
+
+.landing-page-text {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media (min-width: 425px) {
+    .landing-page-text {
+        width: 77%;
+    }
+}
+
+.about {
+    padding-top: 50px;
+    background-color: #F1F1F1;
+}
+
+.about h1 {
+    margin-bottom: 50px;
+    color: #152D41;
+    text-align: center;
+}
+
+.about-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.about-employee-pic-woman {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-image: url(https://image.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-employee-pic-man {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-image: url(https://image.freepik.com/darmowe-zdjecie/mand-trzyma-filizanke_1258-340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-employee-desc {
+    margin: 50px 14px;
+}
+
+.about-employee h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.offers {
+    padding: 50px 0;
+    background-color: #405D78;
+}
+
+.offers h1 {
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.offers-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offers-wrapper-box {
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 5%;
+    position: relative;
+    background-color: #F1F1F1;
+}
+
+.offers-wrapper-box:last-child {
+    margin-bottom: 0;
+}
+
+.offers-wrapper-box-cnt {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.offers-wrapper-box-dot {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #E07A64;
+}
+
+.offers h2 {
+    font-size: 24px;
+}
+
+footer {
+    height: 147px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+}
+
+footer .container-flex {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-credits {
+    margin-bottom: 20px;
+}
+
+.media a {
+    color: white;
+    margin-right: 18px;
+}

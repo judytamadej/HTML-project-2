@@ -1,0 +1,85 @@
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .offers-wrapper {
+        width: 90%;
+    }
+
+    .nav-links {
+        display: block;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-links a {
+        color: #F1F1F1;
+    }
+
+    .landing-page-shadow .container {
+        height: 48%;
+        display: flex;
+    }
+
+    .landing-page-text {
+        width: 53%;
+    }
+    
+    .about {
+        padding: 50px 0;
+    }
+
+    .about h1 {
+        text-align: left;
+    }
+
+    .about-employee {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-employee:nth-of-type(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    .about-employee-desc {
+        margin-left: 54px;
+    }
+    
+    .about-employee-desc:nth-of-type(even) {
+        margin-right: 54px;
+    }
+    .offers h1 {
+        font-size: 36px;
+        text-align: left;
+    }
+
+    .offers-wrapper-box {
+        width: 47.5%;
+        padding-bottom: 47.5%;
+        margin-right: 5%;
+    }
+
+    .offers-wrapper-box:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    .offers-wrapper-box:nth-last-of-type(-n+2) {
+        margin-bottom: 0;
+   }
+   footer {
+       height: 71px;
+    }
+
+    footer .container-flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-credits {
+        margin-bottom: 0;
+    }
+}

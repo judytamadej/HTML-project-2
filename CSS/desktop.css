@@ -1,0 +1,42 @@
+@media (min-width: 1024px) {
+    .container {
+        width: 960px;
+    }
+
+    .landing-page-shadow .container {
+        height: 38%;
+        display: flex;
+    }
+
+    .landing-page a:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+    .offers-wrapper {
+        width: 720px;
+    }
+
+    .offers-wrapper-box {
+        width: 30%;
+        padding-bottom: 30%;
+        margin-right: 5%;
+        transition-duration: 0.5s;
+    }
+
+    .offers-wrapper-box:nth-of-type(2n) {
+        margin-right: 5%;
+    }
+    
+    .offers-wrapper-box:nth-of-type(3n) {
+        margin-right: 0;
+    }
+
+    .offers-wrapper-box:hover {
+        transform: scale(1.05);
+    }
+    
+    .offers-wrapper-box:nth-last-of-type(-n+3) {
+        margin-bottom: 0;
+    }     
+}
